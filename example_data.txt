@@ -1,0 +1,4 @@
+# Format: detectNo status reportPath [reportReason] [plasmidLength] [sampleLength]
+B22406270200 seqconfirm /OSS/20240601/B22406270200.zip "Successful sequencing" 100 200
+B22406270201 seqcancel /OSS/20240601/B22406270201.zip "Failed due to contamination" - -
+B22406270202 seqabnormal /OSS/20240601/B22406270202.zip "Sample quality issues" 150 - 

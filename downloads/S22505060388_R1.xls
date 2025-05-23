@@ -1,0 +1,3 @@
+Project	Sample_name	Machine_ver	Barcode	Barcode_type	Sample_type	Ref	Client	Length	PLASMID_LENGTH	Demand	Demand_150	Haplotype	Path	Detect_no	Detect_cnt	Report_path	Species_name	Genome_size	Data_volume	Push_time	Report_raw_path
+插入片段测通	9	V3	barcode0088	CW-Bar16bp-2208-1	plasmid	"GCTGACCCTGAAACAGAACA
+"	SD250506215832	1000	5760	D	N	N	/SSequenator01/25050704	S22505060388	1	/kfservice/s/primecx/25050704/S22505060388_R1.zip	-	-	-	"2025-05-10 13:21:24"	-
