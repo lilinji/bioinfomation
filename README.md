@@ -22,8 +22,8 @@
 
 1. 克隆此仓库：
    ```bash
-   git clone https://github.com/lilinji/cwbio-lims.git
-   cd cwbio-lims
+   git clone https://github.com/lilinji/bioinfomation.git
+   cd bioinfomation
    ```
 
 2. 安装依赖：
