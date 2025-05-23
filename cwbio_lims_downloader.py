@@ -14,20 +14,21 @@ HTTP请求发送和重试、文件下载等功能。
 版本: 1.0.1
 """
 
-import os
-import sys
-import json
-import time
-import random
-import logging
 import argparse
-import hashlib
 import configparser
-from pathlib import Path
-from enum import Enum
-from typing import Dict, List, Any, Optional, Union, Callable, Tuple
-from urllib.parse import quote, urlparse
+import hashlib
+import json
+import logging
+import os
+import random
+import sys
+import time
 from concurrent.futures import ThreadPoolExecutor, Future, as_completed
+from enum import Enum
+from pathlib import Path
+from typing import Dict, Any, Optional, Union, Callable
+from urllib.parse import urlparse
+
 import requests
 
 # 配置日志

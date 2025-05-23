@@ -10,22 +10,20 @@ CWBIO LIMS(科研服务) 数据上传服务
 版本: 1.0.1
 """
 
-import os
-import sys
-import json
-import time
-import random
-import logging
 import argparse
-import hashlib
 import configparser
-from pathlib import Path
-from enum import Enum
-from typing import List, Dict, Any, Optional, Union, Tuple
-from urllib.parse import quote
-from threading import Lock
+import hashlib
+import json
+import logging
+import random
+import sys
+import time
 from collections import defaultdict
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, field
+from enum import Enum
+from threading import Lock
+from typing import Dict, Any, Optional
+from urllib.parse import quote
 
 import requests
 from requests.adapters import HTTPAdapter
